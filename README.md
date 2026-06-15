@@ -22,5 +22,5 @@ src/
 ├── ui/
 └ MainTours.java
 
-Es posible ejecutar el código sin usar la carpeta "model", con el propósito único de simplemente almacenar datos de la empresa y no de sus usuarios, el código main para recibir usuarios no está incluído para evitar confusiones.
+Es posible ejecutar el código sin usar la carpeta "model" completo, simplemente incluyendo en este "Tours.java", con el propósito único de simplemente almacenar datos de la empresa y no de sus usuarios, el código main para recibir usuarios no está incluído para evitar confusiones.
 Para actualizar la información del stock, se puede editar libremente desde tours.txt siguiendo el modelo otorgado.
