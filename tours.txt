@@ -1,0 +1,10 @@
+1;Puerto Varas;Chile;Carlos Soto;4;15000
+2;Frutillar;Chile;Laura Diaz;1;12000
+3;Bariloche;Argentina;Carlos Soto;3;25000
+4;Osorno;Chile;Laura Diaz;1;10000
+5;Puerto Montt;Chile;Javier Ruiz;2;18000
+6;Valdivia;Chile;Carlos Soto;2;16000
+7;San Martin de los Andes;Argentina;Javier Ruiz;5;32000
+8;Chiloe;Chile;Laura Diaz;3;22000
+9;Pucon;Chile;Carlos Soto;1;14000
+10;Villa La Angostura;Argentina;Javier Ruiz;4;28000
