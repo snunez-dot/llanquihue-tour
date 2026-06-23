@@ -1,5 +1,4 @@
-
-package model;
+package cl.llanquihuetour.model;
 
 /**
  * Organiza los tours posibles de la compañía.
