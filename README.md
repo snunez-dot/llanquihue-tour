@@ -1,26 +1,40 @@
 # llanquihue-tour
 Proyecto: Base de datos, tours de la empresa Llanquihue Tours.
-El proyecto busca abastecer de una base de datos a Llanquihue Tours, creando una interfaz que identifica tours disponibles y los clasifica, desde tours express, dentro de Chile, pudiendo identificar al guía del tour y los precios por persona.
+El proyecto busca una base de datos funcional e interactiva para Llanquihue Tours, creando una interfaz que identifica tours disponibles y los clasifica, desde tours express, dentro de Chile, pudiendo identificar al guía del tour y los precios por persona.
 La estructura al momento de ser ejecutada debe verse como:
-Llanquihue Tour
+Estructura del proyecto
+LlanquihueTourApp
+│
+├── src
+│   └── main
+│       └── java
+│           └── cl.llanquihuetour
+│               │
+│               ├── app
+│               │   └── Main.java
+│               │
+│               ├── data
+│               │   └── GestorDatos.java
+│               │
+│               ├── model
+│               │   └── Tours.java
+│               │
+│               └── files
+│                   └── tours.txt
+│
+├── target
+│
+└── pom.xml
+
+Para agregar información a éste, se debe almacenar en:
 files/
-├── tour.txt
-src/
-├── model/
-├── data/
-└── ui/
+└── tours.txt/
 
-Para ejecutarlo correctamente y agregar información a éste, se debe almacenar en cada carpeta:
-files/
-└── tour.txt/
+Los datos se almacenan en:
+src/main/java/cl/llanquihuetour/files/tours.txt
 
-src/
-├── model/
-└ Direccion.java, Empleado.java, Persona.java, Rut.java, Tours.java.
-├── data/
-└ GestorDatos.java
-├── ui/
-└ MainTours.java
+Formato del archivo:
+id;destino;pais;guia;duracion;precio
 
-Es posible ejecutar el código sin usar la carpeta "model" completo, simplemente incluyendo en este "Tours.java", con el propósito único de simplemente almacenar datos de la empresa y no de sus usuarios, el código main para recibir usuarios no está incluído para evitar confusiones.
-Para actualizar la información del stock, se puede editar libremente desde tours.txt siguiendo el modelo otorgado.
+Para ejecutar: 
+Abrir desde proyecto como proyecto Maven, adoptar el órden especificado de carpetas y clases, asegurarse de que cada carpeta venga de la principal "cl.llanquihuetour". Una vez instalado, proceder a un "clean and build" del programa completo, luego de cada cambio se debe realizar nuevamente este proceso. Abrir el .jar del programa y ejecutarlo usando "java -jar .\target\llanquihueTourApp-1.0-SNAPSHOT.jar".
