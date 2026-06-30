@@ -1,5 +1,5 @@
 # llanquihue-tour
-Proyecto: Base de datos, tours de la empresa Llanquihue Tours.
+Proyecto: Especificaciones en tours de Llanquihue Tours.
 El proyecto busca una base de datos funcional e interactiva para Llanquihue Tours, creando una interfaz que identifica tours disponibles y los clasifica, desde tours express, dentro de Chile, pudiendo identificar al guía del tour y los precios por persona.
 La estructura al momento de ser ejecutada debe verse como:
 Estructura del proyecto
@@ -10,14 +10,19 @@ LlanquihueTourApp
 │       └── java
 │           └── cl.llanquihuetour
 │               │
-│               ├── app
-│               │   └── Main.java
-│               │
 │               ├── data
 │               │   └── GestorDatos.java
+│               │   └── GestorServicios.java
 │               │
 │               ├── model
 │               │   └── Tours.java
+│               │   └── ServicioTuristico.java
+│               │   └── RutaGastronomica.java
+│               │   └── PaseoLacustre.java
+│               │   └── ExcursionCultural.java
+│               │
+│               ├── ui
+│               │   └── Main.java
 │               │
 │               └── files
 │                   └── tours.txt
@@ -29,9 +34,6 @@ LlanquihueTourApp
 Para agregar información a éste, se debe almacenar en:
 files/
 └── tours.txt/
-
-Los datos se almacenan en:
-src/main/java/cl/llanquihuetour/files/tours.txt
 
 Formato del archivo:
 id;destino;pais;guia;duracion;precio
