@@ -8,7 +8,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>23</maven.compiler.release>
-        <exec.mainClass>cl.llanquihuetour.app.Main</exec.mainClass>
+        <exec.mainClass>cl.llanquihuetour.ui.Main</exec.mainClass>
     </properties>
 <build>
 <plugins>
@@ -29,7 +29,7 @@
 <configuration>
 <archive>
 <manifest>
-<mainClass>cl.llanquihuetour.app.Main</mainClass>
+<mainClass>cl.llanquihuetour.ui.Main</mainClass>
 </manifest>
 </archive>
 </configuration>
